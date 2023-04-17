@@ -2,7 +2,7 @@
   "directories": [
     {
       "directoryPath": "directory full path here",
-      "expirationTime": "datetime in format like 2022-01-02 or timestamp like 1681721097",
+      "expirationTime": "datetime with any PHP format like 2022-01-02 or timestamp like 1681721097",
       "ignoringFiles": [
           "some file name"
       ]
