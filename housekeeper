@@ -1,9 +1,9 @@
 #!/usr/bin/env php
 <?php
 
-include __DIR__ . '/vendor/autoload.php';
+include __DIR__ . PHP_EOL . 'vendor/autoload.php';
 
-$config = json_decode(file_get_contents(__DIR__ . '/housekeeper.json'), true);
+$config = json_decode(file_get_contents(__DIR__ . PHP_EOL . 'housekeeper.json'), true);
 
 $runner = new \Aigletter\HouseKeeper\HouseKeeper($config);
 
