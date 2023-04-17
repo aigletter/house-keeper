@@ -3,7 +3,7 @@
 
 include __DIR__ . DIRECTORY_SEPARATOR . 'vendor/autoload.php';
 
-$config = json_decode(file_get_contents(__DIR__ . PHP_EOL . 'housekeeper.json'), true);
+$config = json_decode(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'housekeeper.json'), true);
 
 $runner = new \Aigletter\HouseKeeper\HouseKeeper($config);
 
