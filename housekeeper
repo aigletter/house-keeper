@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-include __DIR__ . PHP_EOL . 'vendor/autoload.php';
+include __DIR__ . DIRECTORY_SEPARATOR . 'vendor/autoload.php';
 
 $config = json_decode(file_get_contents(__DIR__ . PHP_EOL . 'housekeeper.json'), true);
 
